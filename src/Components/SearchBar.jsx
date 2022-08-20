@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import Searchs from "../Styles/Search.module.css"
 import { useState } from 'react'
 import { ActionWeather } from '../Redux/Action/Action'
