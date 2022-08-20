@@ -1,0 +1,16 @@
+.flowchart {
+    padding: 3px;
+   width: 84%;
+   box-shadow: rgba(142, 142, 142, 0.25) 0px 14px 28px,
+   rgba(154, 154, 154, 0.22) 0px 10px 10px;
+}
+.flowchart div {
+    margin: auto;
+    padding: 3px;
+}
+@media only screen and (max-width: 600px) {
+    .flowchart div {
+        /* overflow: auto; */
+    }
+}
+
