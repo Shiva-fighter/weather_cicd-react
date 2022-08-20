@@ -3,6 +3,7 @@
     width: 75%;
     height: 70px;
     margin: auto;
+    color: white;
     
 }
 .SearchBox{
@@ -10,13 +11,13 @@
     height: 85%;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     width: 85%;
-    border-radius: 10px;
+    border-radius: 20px;
     background-color: teal;
     color: white;
     font-size: larger;
 }
 .SearchIcone{
-    color: white;
+    /* color: white; */
     width: 70px;
     height: 70%;
     border: none;
