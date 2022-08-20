@@ -1,5 +1,5 @@
 let weatherDiv = document.querySelector(".weatherDiv");
-let mapouter = document.querySelector(".mapouter");
+let mapouter = document.querySelector(".mapouter")
 
 let cityName = JSON.parse(localStorage.getItem("City")) || "";
 
