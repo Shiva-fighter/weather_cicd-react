@@ -14,7 +14,7 @@ const ManulWeather = () => {
     useEffect(() => {
         async function getWeather() {
             let result = await axios.get(
-                `https://api.openweathermap.org/data/2.5/weather?q=mumbai&units=metric&appid=e63f2ed6817baf9661628890461220bd`,
+                `https://api.openweathermap.org/data/2.5/weather?q=kanpur&units=metric&appid=e63f2ed6817baf9661628890461220bd`,
             )
             let tamp = result.data
             let [lat, lon] = [tamp.coord.lat, tamp.coord.lon]
