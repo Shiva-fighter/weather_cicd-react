@@ -1,5 +1,8 @@
+*{
+  background-color: rgba(165, 223, 233, 0.959);
+}
 .HomeContainer {
-  width: 100%;
+  width: 90%;
   height: auto;
  
 }
@@ -23,7 +26,7 @@
 }
 .HomeBox1 {
   height: 100%;
-  width: 15%;
+  width: 25%;
   display: flex;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   gap: 5px;
@@ -32,11 +35,12 @@
   align-items: center;
   background-color: white;
   border: whitesmoke;
+  /* border: 1px solid black; */
 }
 .HomeBox1:hover {
-  background-color: rgb(7, 116, 13);
+  background-color: rgb(116, 7, 98);
   color: white;
-  border: black;
+  /* border: black; */
   padding: 2px;
   box-sizing: border-box;
 }
@@ -87,6 +91,7 @@ rgba(154, 154, 154, 0.22) 0px 10px 10px;
   width: 75%;
   height: 200px;
   margin: auto;
+  /* border: 1px solid black; */
 }
 .HomeGraph {
   width: 100%;
@@ -99,6 +104,7 @@ rgba(154, 154, 154, 0.22) 0px 10px 10px; */
   display: flex;
   justify-content: center;
   align-items: center;
+  border: 1px solid black;
 }
 
 .HomeGraph1 {
@@ -199,3 +205,4 @@ rgba(154, 154, 154, 0.22) 0px 10px 10px; */
   width: 84%;
   height: 100px;
 }
+
